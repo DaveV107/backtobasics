@@ -10,6 +10,7 @@ public class CarFactory {
 	
 	public Vehicle getInstance(String str) {
 
+		//selects car type if listed or falls back to default/generic
 		if(str.equals("BMW"))
 			return new BMW();
 		else if(str.equals("Merc"))

@@ -1,12 +1,9 @@
 package com.vehicle;
 
 public class BMW implements Vehicle {
-
 	@Override
 	public void spec() {
-		
-		System.out.println("Part of the Volkswagen Audi Group");
-		
+		//Overrides the interface default
+		System.out.println("Part of the Volkswagen Audi Group");		
 	}
-
 }
